@@ -13,7 +13,7 @@ jobs:
     - name: Test C# Code
       run: dotnet test
     - name: Build Typescript Code
-      run: npm run build
+      run: npm install && npm run build
       working-directory: DotnetTemplate.Web
     - name: Run Linting on Typescript
       run: npm run lint
