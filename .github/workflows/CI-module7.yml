@@ -45,4 +45,4 @@ jobs:
         file: ./Dockerfile        
         push: true
         tags: rajrahman/dotnettemplate:latest
-        run: exit 0
+
